@@ -15,3 +15,8 @@ from superscripts import example
 
 example.main()
 ```
+Or, you may run any of the shell scripts from the  [scripts directory](scripts). 
+These are placed in the bin folder when you pip install this package.
+```bash
+./bin/example.sh)
+```
