@@ -2,11 +2,12 @@ from setuptools import setup
 
 setup(
     name='HelperScripts',
-    version='',
+    version='1.0.0',
     packages=['superscripts', 'clusterscripts'],
-    url='',
+    url='https://github.ibm.com/decimelli/HelperScripts',
     license='',
     author='Stefan Decimelli',
     author_email='decimelli@ibm.com',
-    description=''
+    description='This repo contains a python module that can be installed via pip, containing helpful automation '
+                'scripts for Jenkins'
 )
