@@ -1,4 +1,4 @@
-# Helper Scripts
+# Pip Package Template
 
 Contains the following python modules:
 - Super Helper Scripts (superscripts)
