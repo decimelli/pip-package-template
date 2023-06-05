@@ -5,6 +5,7 @@ setup(
     version='1.0.0',
     packages=['superscripts', 'clusterscripts'],
     url='https://github.ibm.com/decimelli/HelperScripts',
+    install_requires=["requests"],
     license='',
     author='Stefan Decimelli',
     author_email='decimelli@ibm.com',
