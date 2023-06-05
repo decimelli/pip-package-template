@@ -11,5 +11,13 @@ setup(
     description="Contains modules for stefan to use in his pipelines",
     long_description_content_type="text/x-rst",
     long_description='This repo contains a python module that can be installed via pip, containing helpful automation '
-                     'scripts for Jenkins'
+                     'scripts for Jenkins',
+
+    data_files=[
+        (
+            'bin', [
+                'scripts/example.sh'
+            ]
+        )
+    ]
 )
