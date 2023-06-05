@@ -20,3 +20,7 @@ These are placed in the bin folder when you pip install this package.
 ```bash
 ./bin/example.sh)
 ```
+Which bin directory depends on your python installation. To find it you can run:
+`
+dirname $(which pip)
+`
